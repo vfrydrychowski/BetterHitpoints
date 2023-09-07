@@ -18,3 +18,5 @@ Here is an example of a tom mic with snare bleed.
 # Data
 
 To build a dataset, I can provide drum track with hitpoint already detected (and manually corrected). We might also need to generate data with a drum kit that play ramdomly and genrate separate tracks with various drum configurations to vary mic bleeds. Hit pattern prediction might also help. 
+
+Note on data retrieving : on cubase, we can export tracks to be imported in another project, and it turns out it do so in a form of a xml and wav file instead of the usual proprietary crap. In this xml, we can retrieve the hitpoints datas. It means we can temper with this file to produce the output of or programm, but this will be only compatible with cubase/Nuendo (a pretty good start)
